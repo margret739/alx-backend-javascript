@@ -5,7 +5,7 @@
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 export default function updateUniqueItems(map) {
-  if (!(map instance of Map)) {
+  if (!(map instanceof Map)) {
     throw new Error('Cannot process');
   }
   map.forEach((value, key) => {
